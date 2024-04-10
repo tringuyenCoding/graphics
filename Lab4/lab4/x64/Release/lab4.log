@@ -1,0 +1,10 @@
+﻿  cone.cpp
+  cube.cpp
+  cylinder.cpp
+  hyperboloid.cpp
+  main.cpp
+  paraboloid.cpp
+  sphere.cpp
+  torus.cpp
+  triangle.cpp
+LINK : fatal error LNK1104: cannot open file 'glut32.lib'

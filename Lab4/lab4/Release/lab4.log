@@ -1,6 +1,12 @@
-﻿  main.cpp
+﻿SOIL.lib(SOIL.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
   Generating code
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  47 of 47 functions (100.0%) were compiled.
+    42 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  lab4.vcxproj -> D:\my documents\APCS\year3\HK2\Graphic\21125065_Lab4\Release\lab4.exe
+SOIL.lib(image_DXT.obj) : warning LNK4099: PDB '' was not found with 'SOIL.lib(image_DXT.obj)' or at ''; linking object as if no debug info
+SOIL.lib(image_helper.obj) : warning LNK4099: PDB '' was not found with 'SOIL.lib(image_helper.obj)' or at ''; linking object as if no debug info
+SOIL.lib(SOIL.obj) : warning LNK4099: PDB '' was not found with 'SOIL.lib(SOIL.obj)' or at ''; linking object as if no debug info
+SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB '' was not found with 'SOIL.lib(stb_image_aug.obj)' or at ''; linking object as if no debug info
+  lab4.vcxproj -> D:\my documents\APCS\year3\HK2\Graphic\graphics\Lab4\Release\lab4.exe
